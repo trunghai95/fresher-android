@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MY KARA</string>
+    <string name="Tab1_name">VietSongsTab</string>
+    <string name="Tab2_name">ForeignSongsTab</string>
+    <string name="Tab3_name">FaveriteSongsTab</string>
+    <string name="Tab4_name">SingersSongsTab</string>
+    <string name="Tab5_name">InforTab</string>
+
+    <string name="Tab1_title">Nhạc Việt</string>
+    <string name="Tab2_title">Nhạc ngoại</string>
+    <string name="Tab3_title">Yêu thích</string>
+    <string name="Tab4_title">Ca sĩ</string>
+    <string name="Tab5_title">Thông tin</string>
+
+    <string name="PrgDlg_Title">Đang tải dữ liệu...</string>
+    <string name="PrgDlg_Details">Chờ xíu nhé!</string>
+
+    <string name="title_dialog_login">Đăng nhập</string>
+    <string name="hint_dialog_email">Email</string>
+    <string name="hint_dialog_password">Mật khẩu</string>
+    <string name="text_login_button">Đăng nhập</string>
+    <string name="text_signup_button">Đăng ký</string>
+    <string name="text_logout">Đăng xuất</string>
+    <string name="text_login_google">Đăng nhập bằng Google</string>
+    <string name="message_empty_username_password">Email và mật khẩu không được rỗng.</string>
+    <string name="message_login_failed">Đăng nhập không thành công. Hãy thử lại!</string>
+    <string name="message_signup_failed">Đăng ký tài khoản không thành công. Mời thử lại!</string>
+    <string name="message_connection_failed">Mất kết nối!</string>
+
+    <string name="title_dialog_favorite">Bỏ thích bài hát</string>
+    <string name="message_dialog_favorite1">Bạn có đồng ý bỏ thích bài hát "</string>
+    <string name="message_dialog_favorite2">"?</string>
+    <string name="text_cancel_button">Hủy</string>
+    <string name="text_ok_button">Đồng ý</string>
+    <string name="search">Tìm kiếm...</string>
+
+    <string name="singer_label">Thể hiện:</string>
+
+    <string name="author_1">HaiBT2</string>
+    <string name="author_2">NhutLM2</string>
+
+    <!-- Do not translate those below! -->
+    <string name="firebase_child_favorite">favorite</string>
+    <string name="client_id">98304372900-b13gvekj3muqv2akp651qp10e0me9phs.apps.googleusercontent.com</string>
+
+</resources>

@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
+
+    defaultConfig {
+        applicationId "com.vng.fresherandroid.mykara"
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.android.support:cardview-v7:24.0.0'
+    compile 'com.android.support:recyclerview-v7:24.0.0'
+    compile 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+
+    // Firebase
+    compile 'com.google.firebase:firebase-core:9.4.0'
+    compile 'com.google.firebase:firebase-database:9.4.0'
+    compile 'com.google.firebase:firebase-auth:9.4.0'
+    compile 'com.google.android.gms:play-services-auth:9.4.0'
+
+    // View animation: https://github.com/daimajia/AndroidViewAnimations
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.easing:library:1.0.1@aar'
+    compile 'com.daimajia.androidanimations:library:1.1.3@aar'
+
+    // Swipe layout: https://github.com/daimajia/AndroidSwipeLayout
+    compile 'com.android.support:support-v4:24.+'
+    compile "com.daimajia.swipelayout:library:1.2.0@aar"
+
+    // FloatLabeledEditText: https://github.com/wrapp/floatlabelededittext
+    compile 'com.wrapp.floatlabelededittext:library:0.0.6'
+
+    // Spots dialog: https://github.com/d-max/spots-dialog
+    compile 'com.github.d-max:spots-dialog:0.7@aar'
+}
+apply plugin: 'com.google.gms.google-services'

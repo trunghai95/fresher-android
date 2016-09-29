@@ -1,0 +1,81 @@
+{
+  "project_info": {
+    "project_number": "98304372900",
+    "firebase_url": "https://mykara-vngfresher.firebaseio.com",
+    "project_id": "mykara-vngfresher",
+    "storage_bucket": "mykara-vngfresher.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98304372900:android:22420c27266b79fe",
+        "android_client_info": {
+          "package_name": "com.vng.fresherandroid.testfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98304372900-b13gvekj3muqv2akp651qp10e0me9phs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA12lhvBjxDFZV97ox8b5TUAE4AKYw10Ic"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98304372900:android:648f1e7f9e5ab4d7",
+        "android_client_info": {
+          "package_name": "com.vng.fresherandroid.mykara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98304372900-lavovuva3pbm1jb8l08cesv93i8manjr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vng.fresherandroid.mykara",
+            "certificate_hash": "8A8B36E0453136B4EE1313E37EE772C50B3C0632"
+          }
+        },
+        {
+          "client_id": "98304372900-b13gvekj3muqv2akp651qp10e0me9phs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA12lhvBjxDFZV97ox8b5TUAE4AKYw10Ic"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
